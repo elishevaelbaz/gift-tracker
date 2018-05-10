@@ -10,6 +10,8 @@ var app = express();
 
 var routes = require("./routes");
 
+var scrape = require("./scripts/scrape.js")
+
 // making the public folder into a static directory
 app.use(express.static("public"));
 
